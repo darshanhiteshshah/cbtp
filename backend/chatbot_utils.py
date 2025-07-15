@@ -49,7 +49,7 @@ def get_response(intents_list, intents_json):
 
     if tag == "weather":
         city = "Mumbai"
-        api_key = "0d6777f702e8d6ee75da07928ab4ee9a"  # OpenWeatherMap API Key
+        api_key = "{ OpenWeatherMap API Key}"  
         url = f"https://api.openweathermap.org/data/2.5/weather?q={city}&appid={api_key}&units=metric"
         response = requests.get(url).json()
         if "main" in response:
@@ -71,7 +71,7 @@ def get_response(intents_list, intents_json):
         return advice["slip"]["advice"]
 
     if tag == "news":
-        api_key = "ea429f72a24d6fad1c942a1f5947444f"  # GNews API Key
+        api_key = "{GNews API Key}"  
         url = f"https://gnews.io/api/v4/top-headlines?token={api_key}&lang=en&country=in"
         response = requests.get(url).json()
         if "articles" in response and response["articles"]:
