@@ -1,0 +1,54 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": ["hello", "hi", "good morning", "good evening", "hey", "hi there"],
+            "responses": ["Hello!", "Hi there!", "Greetings!", "How can I help you today?", "Nice to see you!"]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": ["bye", "goodbye", "see you later", "see ya", "talk to you later"],
+            "responses": ["Goodbye!", "See you later!", "Have a great day!", "Talk soon!"]
+        },
+        {
+            "tag": "thanks",
+            "patterns": ["thanks", "thank you", "that's helpful", "thanks a lot"],
+            "responses": ["You're welcome!", "Happy to help!", "No problem!", "Anytime!"]
+        },
+        {
+            "tag": "name",
+            "patterns": ["what is your name", "who are you", "what's your name", "tell me your name"],
+            "responses": ["My name is Raju.", "I'm Raju, your friendly chatbot!", "You can call me Raju."]
+        },
+        {
+            "tag": "joke",
+            "patterns": ["tell me a joke", "make me laugh", "say something funny"],
+            "responses": ["Fetching a joke for you..."]
+        },
+        {
+            "tag": "weather",
+            "patterns": ["what's the weather", "weather in mumbai", "is it raining", "weather update"],
+            "responses": ["Checking the weather..."]
+        },
+        {
+            "tag": "quote",
+            "patterns": ["tell me a quote", "give me motivation", "motivate me"],
+            "responses": ["Here's an inspiring quote for you..."]
+        },
+        {
+            "tag": "fact",
+            "patterns": ["tell me a fact", "random fact", "say something interesting"],
+            "responses": ["Let me find a fun fact..."]
+        },
+        {
+            "tag": "advice",
+            "patterns": ["give me advice", "tell me something wise"],
+            "responses": ["Fetching advice for you..."]
+        },
+        {
+            "tag": "news",
+            "patterns": ["latest news", "what's happening", "tell me news"],
+            "responses": ["Checking the latest news headlines..."]
+        }
+    ]
+}

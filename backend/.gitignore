@@ -1,0 +1,24 @@
+# Python / Flask
+__pycache__/
+*.pyc
+instance/
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+.env
+.env.local
+*.log
+
+# Virtual Environment
+venv/
+ENV/
+env/
+.venv/
+
+# Model Files
+*.h5
+*.hdf5
+words.pkl
+classes.pkl
+chat_history.json
